@@ -189,7 +189,7 @@ p {
     .patreonButton{
         position: absolute;
         top: 10px;
-        left: 23%;
+        left: 31%;/*23%;*/
     }
 }
 
@@ -341,7 +341,7 @@ p {
     color: #BABABA;
 }
 
-@media screen and (min-width:1400px){
+@media screen and (min-width:1200px){
     .mainBodyArea{
         width: 90%;
         text-align: center;
@@ -356,7 +356,7 @@ p {
     }
 }
 
-@media screen and (min-width:900px) and (max-width:1400px){
+@media screen and (min-width:900px) and (max-width:1200px){
     .mainBodyArea{
         width: 80%;
         text-align: center;
@@ -367,7 +367,7 @@ p {
         display: grid;
         grid-column-gap: 50px;
         grid-row-gap: 50px;
-        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
     }
 }
 
