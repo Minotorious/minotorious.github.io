@@ -1,0 +1,441 @@
+html {
+    background-color: #2C2F33;
+}
+
+footer{
+    height: 60px;
+    background-color: #23272A;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+p {
+    color: #BABABA;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 60px;    /* Footer height */
+}
+
+.navbar {
+  background-color: #23272A;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1; /* Prevent images over navigation bar */
+}
+
+@media screen and (min-width:780px){
+    .navbar a {
+      float: left;
+      display: block;
+      color: #BABABA;
+      position: relative;
+      left: 50%;
+      text-align: center;
+      padding: 18px 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+}
+
+@media screen and (max-width:780px) and (min-width:480px){
+    .navbar a {
+      float: left;
+      display: block;
+      color: #BABABA;
+      position: relative;
+      left: 50%;
+      text-align: center;
+      padding: 18px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      text-indent:-5000px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .navbar a {
+      float: left;
+      display: block;
+      color: #BABABA;
+      position: relative;
+      left: 60%;
+      text-align: center;
+      padding: 18px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      text-indent:-5000px;
+    }
+}
+
+@media screen and (min-width:480px){
+    .dropdown {
+        float: left;
+        position: relative;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .dropdown {
+        float: left;
+        position: relative;
+        left: 60%;
+    }
+}
+
+@media screen and (min-width:780px){
+    .dropdown .dropbtn {
+        display: block;
+        color: #BABABA;
+        text-align: center;
+        padding: 18px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #23272A;
+        font-family: inherit;
+        font-size: 12pt;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:780px){
+    .dropdown .dropbtn {
+        display: block;
+        color: #BABABA;
+        text-align: center;
+        padding: 18px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #23272A;
+        font-family: inherit;
+        font-size: 12pt;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        text-indent:-5000px;
+    }
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #BABABA;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #BABABA;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #23272A;
+    padding: 18px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    left: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #23272A;
+    color: #BABABA;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.penguinNavBar{
+    position: absolute;
+    top: 5px;
+    left: 1%;
+}
+
+.penguinNavBarText{
+    position: absolute;
+    top: 25%;
+    left: 50px;
+    text-align: left;
+    color: #BABABA;
+    font: 20px Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    width: 10px;
+}
+
+@media screen and (min-width:1200px){
+    .patreonButton{
+        position: absolute;
+        top: 10px;
+        right: 1%;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:700px){
+    .patreonButton{
+        position: absolute;
+        top: 10px;
+        left: 23%;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:480px){
+    .patreonButton{
+        position: absolute;
+        top: 10px;
+        left: 9%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .patreonButton{
+        position: absolute;
+        top: 10px;
+        left: 12%;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .penguinMain{
+        position: absolute;
+        top: 80px;
+        right: 60%;
+    }
+}
+
+@media screen and (max-width:1280px) and (min-width:1100px){
+    .penguinMain{
+        position: absolute;
+        top: 80px;
+        right: 60%;
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width:1100px) and (min-width:800px){
+    .penguinMain{
+        position: absolute;
+        top: 80px;
+        right: 60%;
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:700px){
+    .penguinMain{
+        position: absolute;
+        top: 80px;
+        right: 60%;
+        transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:600px){
+    .penguinMain{
+        position: absolute;
+        top: 80px;
+        right: 55%;
+        transform: scale(0.5);
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:400px){
+    .penguinMain{
+        position: absolute;
+        top: 80px;
+        right: 45%;
+        transform: scale(0.4);
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:350px){
+    .penguinMain{
+        position: absolute;
+        top: 80px;
+        right: 35%;
+        transform: scale(0.3);
+    }
+}
+
+@media screen and (max-width:350px){
+    .penguinMain{
+        position: absolute;
+        top: 80px;
+        right: 20%;
+        transform: scale(0.2);
+    }
+}
+
+.penguinText{
+    position: absolute;
+    top: 20%;
+    left: 400px;
+    text-align: left;
+    font: 60px Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    width: 800px;
+}
+
+.penguinSubtext{
+    position: absolute;
+    top: 45%;
+    left: 400px;
+    text-align: left;
+    font: 40px Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    width: 800px;
+}
+
+@media screen and (min-width:1280px){
+    .banner{
+        background-image:url(../images/banner.png);
+        min-height:500px!important;
+        background-origin:padding-box;
+        background-position:0 0;
+        background-repeat:x-repeat;
+        background-size:contain!important
+    }
+}
+@media screen and (min-width:780px) and (max-width:1280px){
+    .banner{
+        background-image:url(../images/banner.png);
+        min-height:500px!important;
+        background-origin:padding-box;
+        background-position:0 0;
+        background-repeat:no-repeat;
+        background-size:contain!important
+    }
+}
+@media screen and (max-width:780px){
+    .banner{
+        background-image:url(../images/banner_small.png);
+        min-height:500px!important;
+        background-origin:padding-box;
+        background-position:0 0;
+        background-repeat:no-repeat
+    }
+}
+
+.bodyTitle{
+    margin-top: -25px;
+    text-align: center;
+    font: 40px Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #BABABA;
+}
+
+@media screen and (min-width:1400px){
+    .mainBodyArea{
+        width: 90%;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: grid;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1400px){
+    .mainBodyArea{
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: grid;
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:900px){
+    .mainBodyArea{
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: grid;
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (max-width:400px){
+    .mainBodyArea{
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: grid;
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (min-width:400px){
+    .mainBodyUnit{
+        height: 512px;
+        width: 512px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:400px){
+    .mainBodyUnit{
+        height: 250px;
+        width: 250px;
+        margin: auto;
+    }
+}
+
+
+.modioUnit{
+    position: relative;
+    top: -70%;
+}
+
+
+.followBar{
+    height: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.followIcon{
+    display: inline-block;
+    padding: 15px;
+    width: 10%;
+}
