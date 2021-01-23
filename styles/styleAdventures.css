@@ -1,0 +1,16 @@
+.penguinAdventures {
+    position: absolute;
+    top: 80px;
+    left: 60%;
+}
+
+.penguinAdventuresText {
+    position: absolute;
+    top: 20%;
+    left: -800px;
+    text-align: right;
+    font: 60px Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    width: 800px;
+}
