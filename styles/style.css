@@ -425,6 +425,10 @@ p {
     }
 }
 
+.projectIcon{
+    position: relative;
+    top: -155%;
+}
 
 .modioUnit{
     position: relative;
