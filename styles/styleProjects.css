@@ -1,0 +1,14 @@
+@media screen and (min-width:1200px){
+    .mainBodyAreaProjects{
+        width: 95%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: grid;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+}
